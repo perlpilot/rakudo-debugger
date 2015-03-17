@@ -146,7 +146,7 @@ my class SourceFile {
                 return normal_lines(
                     [
                         colored('Regex Match Position', 'blue'),
-                        colored($before, 'green') ~ $after
+                        colored($before, 'green') ~ colored("⏊", 'cyan') ~ $after
                     ],
                     'blue')
             }
